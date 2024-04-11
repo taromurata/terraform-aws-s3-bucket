@@ -2,7 +2,7 @@ data "aws_canonical_user_id" "this" {}
 
 #data "aws_caller_identity" "current" {}
 # ERROR!
-data "aws_caller_identity" "current" {
+data "aws_caller_identity" "current" {}
 
 locals {
   create_bucket = var.create_bucket && var.putin_khuylo
